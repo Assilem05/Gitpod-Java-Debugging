@@ -3,11 +3,18 @@
   // Hover to view descriptions of existing attributes.
   "version": "0.2.0",
   "configurations": [
-      {
-          "type": "java",
-          "name": "Debug (Launch) - Current File",
-          "request": "launch",
-          "mainClass": "${file}"
-      },
-  ]
+    {
+        "type": "java",
+        "name": "CodeLens (Launch) - App",
+        "request": "launch",
+        "mainClass": "App",
+        "projectName": "Gitpod-Java-Debugging_b24c48b4"
+    },
+    {
+        "type": "java",
+        "name": "Debug (Launch) - Current File",
+        "request": "launch",
+        "mainClass": "${file}"
+    }
+]
 }
